@@ -78,7 +78,6 @@ function AssistantTab({ apiRequest }) {
           rows="2"
           ref={inputRef}
           onChange={(event) => setInput(event.target.value)}
-          onInput={(event) => setInput(event.target.value)}
           placeholder="Ask about gates, delays, or next departures..."
         />
         <div className="chat-actions">
