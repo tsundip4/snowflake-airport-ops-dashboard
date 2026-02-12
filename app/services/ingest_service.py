@@ -185,6 +185,5 @@ def ingest_flights(dep_iata: str | None, arr_iata: str | None, limit: int) -> di
         "raw_inserted": raw_inserted,
         "airports_upserted": len(airports),
         "airlines_upserted": len(airlines),
-        "flights_inserted": 0,
         "flights_updated": flights_upserted,
     }
